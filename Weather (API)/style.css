@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+ 
+
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.input{
+    text-align: center;
+    margin: 100px 0;
+}
+
+input[type="text"]  {
+    height: 40px;
+    width: 400px;
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+
+input[type="submit"]{
+    height: 40px;
+    width: 90px;
+    background:black;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+
+input[type="submit"]:hover{
+ background: white;
+ color: black;
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.display{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color:black;
+    
+}
+
+
+
+.sig {
+    border: solid black 1px;
+    color:black;
+    background-color: rgba(54, 54, 136, 0.002);
+    width: 100px;
+    border-radius: 5px;
+    padding: 2px 4px 2px 4px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+}

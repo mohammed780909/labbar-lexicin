@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+a{
+    text-decoration:none ;
+    color:blue;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+
+}
+
+
+.head{
+    border: solid 1px rgb(180, 18, 18);
+    padding: 15px;
+    background-color: black;
+    background-attachment: fixed;
+    text-align: left;
+    color: rgb(214, 201, 13);
+   
+    
+    
+
+
+ 
+    
+}
+
+.img{
+
+ 
+
+    
+}
+
+
+.hi{
+    text-align: center;
+    font-style: italic;
+
+
+}
+
+
+.text{
+    margin: 30px;
+    text-align: left;
+    width: 69%;
+    float: left;
+    
+}
+
+.sidebar{
+    border: solid 1px black;
+    background-color: yellow;
+    color: black;
+    float: left;
+    text-align: center;
+    width: 20%;
+}

@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    
+
+    
+   
+}
+
+
+
+.welcome{
+    margin: 40px ;
+    background-color:black;
+    
+    color: white;
+    text-align: center;
+    border: tomato double 3px;
+    border-radius: 10px;
+    
+}
+
+#user {
+    
+    border: double black 5px ;
+    border-radius: 30px;
+    background-color: rgb(241, 233, 233) ;
+    width: fit-content ;
+    padding: 20px;
+    box-shadow: rgb(70, 68, 68) 10px 10px 10px ;
+    margin: 10% auto;
+   /*margin-top: 20%;
+   margin-left: 25%;*/
+    
+   
+    
+   
+    align-items: center;
+    text-align: center;
+
+    
+    
+
+}
+
+
+.sig {
+    border: solid black 1px;
+    color:black;
+    background-color: rgba(145, 108, 51, 0.516);
+    width: fit-content;
+    border-radius: 5px;
+    padding: 2px 4px 2px 4px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+
+}
+
+
+
+.time{
+    border: coral solid 2px;
+    background-color: brown;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab 13</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+         <!-- navbar -->
+    <nav class="navbar  navbar-dark bg-dark mb-3">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">Welcome to my web.....</span>
+        </div>
+    </nav>
+
+
+        
+        
+        <div class="container">
+           <form id="regForm">
+
+            <!-- firsName lastName -->
+              <div class="form-row">
+
+                  <!-- firstName -->
+                  <div class="form-group col-md-6">
+                      <input type="text" id="firstName" class="form-control" placeholder="First Name...">
+                       <div class="invalid-feedback">
+                            Error... 
+                      </div>
+                      <div class="valid-feedback">
+                            Right ! 
+                      </div> 
+                   </div>
+
+       
+
+
+
+                  <!-- lastName -->
+                  <div class="form-group col-md-6">
+                     <input type="text" id="lastName" class="form-control" placeholder="Last Name...">
+                     <div class="invalid-feedback">
+                          Error... 
+                     </div>
+                     <div class="valid-feedback">
+                          Right ! 
+                     </div>
+                  </div>
+
+
+
+
+
+                  <!-- Email -->
+                  <div class="form-group col-md-12">
+                    <input type="email " id="email" class="form-control" placeholder="Email@...">
+                    <div class="invalid-feedback">
+                         Error... 
+                    </div>
+                    <div class="valid-feedback">
+                         Right ! 
+                    </div>
+                 </div>
+
+
+
+
+
+
+
+
+                <!-- Kön  -->
+                
+                    <div class="form-group col-md-12">
+                      <label for="kön"><h2> Kön :</h2></label>
+                      <select class="form-control" id="kön">
+                        <option ></option>
+                        <option>Man</option>
+                        <option>Kvinna</option>
+                        <option>Annan</option>
+
+                         <div class="invalid-feedback">
+                          Error... 
+                        </div>
+                        <div class="valid-feedback">
+                          Right ! 
+                        </div> 
+
+                        
+                        
+                      </select>
+                      
+
+                      
+                      
+                    </div>
+                
+
+
+
+
+
+
+                 <!-- read me  -->
+                 <div class="form-group "> 
+                 <input type="checkbox" name="checkbox" id="readme" value="check"> ok 
+                 <div class="invalid-feedback">
+                         Error... 
+                 </div>
+                 <div class="valid-feedback">
+                         Right ! 
+                 </div> 
+                 </div>
+
+
+                 
+
+                
+
+
+                 
+
+                 
+
+                   
+                    
+                     
+                   </form>
+               
+                
+                
+
+
+
+                <div class="form-group col-md-3">
+            
+                  <button id="btnSubmit" type="submit" class="btn btn-info">Register</button>
+                
+                </div>
+    
+          
+          
+              </div>
+        </form>
+
+      </div>    
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
